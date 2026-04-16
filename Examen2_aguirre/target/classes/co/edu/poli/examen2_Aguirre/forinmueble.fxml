@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<TabPane xmlns="http://javafx.com/javafx"
+         xmlns:fx="http://javafx.com/fxml"
+         tabClosingPolicy="UNAVAILABLE">
+
+    <tabs>
+        <Tab text="Tab 1">
+            <content>
+                <AnchorPane minHeight="400" minWidth="600">
+                    <!-- Tu contenido aquí -->
+                </AnchorPane>
+            </content>
+        </Tab>
+
+        <Tab text="Tab 2">
+            <content>
+                <AnchorPane minHeight="400" minWidth="600">
+                    <!-- Tu contenido aquí -->
+                </AnchorPane>
+            </content>
+        </Tab>
+    </tabs>
+
+</TabPane>
